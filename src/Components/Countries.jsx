@@ -4,6 +4,7 @@ function CountryCard({ props }) {
   const { image, title, altName } = props;
   return (
     <div
+      className="countryCard"
       style={{
         display: "flex",
         justifyContent: "center",
